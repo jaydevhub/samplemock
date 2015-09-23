@@ -1,0 +1,51 @@
+<html>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	<body>
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Add Subscribers</h4>
+					</div>
+					<div class="modal-body">
+						<div class="ui-widget">
+							<label>Your Available Contacts: </label>
+							<select id="combobox">
+								<option value="">Select one...</option>
+								<option value="Tiffany Rockwell">Tiffany Rockwell</option>
+								<option value="Jay Jackson">Jay Jackson</option>
+								<option value="Randy Whitmen">Randy Whitmen</option>
+								<option value="Hershey Jaromy">Hershey Jaromy</option>
+								<option value="Royd Buttler">Royd Buttler</option>
+								<option value="Chinput Lidbetter">Chinput Lidbetter</option>
+								<option value="Ted Bjorgaard">Ted Bjorgaard</option>
+								<option value="Mario Schoenegger">Mario Schoenegger"</option>
+							</select>
+							<button onclick="addButtonClick();">Add</button>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<span class="subscribersMessage">You now have <span id="subscriberNumber"></span> subscribers</span>
+						<button type="button" class="btn btn-primary" data-dismiss="modal">Share</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="" class="" data-toggle="modal" data-target="#myModal">
+			<img src="images/rss-feed.png" class="feed-icon" />
+		</a>
+	</body>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+
+</html>

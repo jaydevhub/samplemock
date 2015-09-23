@@ -1,0 +1,41 @@
+
+	body {
+		height : 100%;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-image: url(http://www.pardot.com/wp-content/uploads/2010/10/october-marketing-calendar.png);
+	}
+
+	.feed-icon {
+		position: absolute;
+	    width: 28px;
+	    top: 23px;
+	    left: 276px;
+	}
+
+
+
+	#subscriberNumber {
+		color: orange;
+	}
+	.subscribersMessage {
+		padding-right: 8em;
+	}
+	.custom-combobox {
+	  position: relative;
+	  z-index: 99;
+	  display: inline-block;
+	}
+	.custom-combobox-toggle {
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  z-index: 99;
+	  margin-left: -1px;
+	  padding: 0;
+	}
+	.custom-combobox-input {
+	  margin: 0;
+	  z-index: 99;
+	  padding: 5px 10px;
+	}
